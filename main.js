@@ -20,5 +20,9 @@ function checkNumber(number) {
     if (message == "")
         message += number
 
+    return(message)
+}
+
+function printMessage(message) {
     console.error(message)
 }
