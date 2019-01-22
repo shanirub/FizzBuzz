@@ -3,7 +3,7 @@
 // for every 3 and 5 multiples print "FizzBuzz"
 
 for (let i = 1; i <= 100; i++) {
-    checkNumber(i)
+    printMessage(checkNumber(i))
 }
 
 function checkNumber(number) {
@@ -12,10 +12,10 @@ function checkNumber(number) {
     let message = ""
     
     if (number % FIZZ == 0)
-        message += "FIZZ"
+        message += "Fizz"
 
     if (number % BUZZ == 0)
-        message += "BUZZ"
+        message += "Buzz"
 
     if (message == "")
         message += number
