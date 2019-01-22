@@ -1,0 +1,1 @@
+Another ccd Function Kata in JS
